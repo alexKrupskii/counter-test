@@ -1,0 +1,55 @@
+.btn {
+    background-color: rgb(15, 15, 15);
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid rgb(29, 198, 240);
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    transition: .3s;
+    font-size: 20px;
+   
+    &:active {
+      background-color: rgb(29, 198, 240);
+      text-decoration: none;
+      outline: none;
+      display: inline-block;
+      margin: 10px 20px;
+      padding: 10px 30px;
+      position: relative;
+      border: 2px solid rgb(29, 198, 240);
+      color: white;
+      font-family: 'Montserrat', sans-serif; 
+      transition: .3s;
+      font-size: 20px;
+      transform: scale(1.1);
+    }
+  }
+
+  .btnBlock {
+    background-color: rgb(148, 148, 148);
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #686868;
+    color: #686868;
+    font-family: 'Montserrat', sans-serif; 
+    transition: .3s;
+    font-size: 20px;
+  }
+
+
+  .startInput {
+
+  }
+
+  .startInputError {
+    background-color: #ff6042;
+    outline-color: #ff6042;
+  }
